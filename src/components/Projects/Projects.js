@@ -14,7 +14,7 @@ const Projects = () => (
         <div className = "project">
             <span className = "project_header">
                 <p className = "project_name">trimLink</p>
-                <a href="https://devpost.com/software/navigation-19" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/isabellehuangg/trimLink" target="_blank" rel="noopener noreferrer">
                     <FaGithub className = "p_icon" />
                 </a>
             </span>
