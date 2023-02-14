@@ -1,0 +1,64 @@
+.title-container {
+  display: flex;
+}
+
+.Title {
+  font-weight: 450;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 1.2rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.Connect {
+    top: 3rem;
+    left: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 1;
+    text-align: left;
+    padding: 1rem;
+    overflow: visible;
+    background-color: #F6EEE1;
+}
+
+.airplane {
+    margin-left: 1rem;
+    max-width: 3rem;
+    transform: TranslateY(1rem);
+    max-height: 2.5rem;
+  }
+
+.icon {
+    min-width: 2rem;
+    min-height: 2rem;
+    color: #A1A783;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.icon:hover {
+    color: #7b8062;
+    transform: scale(1.1);
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+.SocialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+hr.new1 {
+  border-top: 2px dashed #A1A783;
+}

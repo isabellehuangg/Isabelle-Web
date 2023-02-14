@@ -1,0 +1,64 @@
+.introduction {
+    top: 3rem;
+    left: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1;
+    text-align: left;
+    padding: 1rem;
+    overflow: visible;
+}
+
+.newHeader {
+    background-color: #F6EEE1;
+}
+
+.background {
+    width: 100%;
+}
+
+.mob {
+    color: black;
+}
+
+.mob:hover {
+    background-color: #bce7e9;
+    transition-timing-function: ease;
+    transition-duration: 0.25s;
+}
+
+.openResume {
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    border: solid 0.1rem #A1A783;
+    background-color: #A1A783;
+    color: #f4f4f4;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.intro {
+    font-weight: 450;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 1.2rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.name {
+    background-color: #bce7e9;
+}
+
+.openResume:hover {
+    transform: scale(1.02);
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+}

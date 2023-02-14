@@ -1,0 +1,103 @@
+.Fruit {
+    max-width: 4rem;
+    max-height: 4rem;
+    margin-left: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Experience {
+    top: 3rem;
+    left: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+    text-align: left;
+    padding: 1rem;
+    overflow: visible;
+}
+
+.experience {
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px #7b8062;
+    text-align: center;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.exp_title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+.experiences {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.5rem;
+    scroll-behavior: smooth;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 16.5px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.project_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experiences::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F6EEE1;
+}
+  
+.experiences::-webkit-scrollbar-thumb {
+  background-color: #c8ceab;
+  border-radius: 0.5rem;
+  width: 10px;
+  height: 50px;
+}
+
+.links {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #7b8062;
+}
+
+.links:hover {
+    transform: scale(1.01);
+    transition-timing-function: ease;
+    transition-duration: 0.25s;
+}
