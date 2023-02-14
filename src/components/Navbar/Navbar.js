@@ -19,11 +19,6 @@ function Navbar() {
                 <p onClick = {() => NavScroll("experience")}>Experience</p>
                 <p onClick = {() => NavScroll("contact")}>Contact</p>
             </div>
-            <div class="hamburger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
         </div>
     )
 }
