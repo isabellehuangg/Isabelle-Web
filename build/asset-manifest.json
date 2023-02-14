@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71d1492b.css",
+    "main.js": "/static/js/main.584e2af1.js",
+    "static/media/isabelle.png": "/static/media/isabelle.6a026c15d739e901c757.png",
+    "static/media/island_bg.jpg": "/static/media/island_bg.3e1d18cd0947aaee4e5b.jpg",
+    "static/media/airline.png": "/static/media/airline.7bb1e1816b8b7841084a.png",
+    "static/media/fishing_rod.jpg": "/static/media/fishing_rod.1c3bc75ed7fb81575aa4.jpg",
+    "static/media/fruit.jpg": "/static/media/fruit.883eddf436691fa9e1bd.jpg",
+    "static/media/mob.jpg": "/static/media/mob.3ad9d2799d7c52eba11b.jpg",
+    "index.html": "/index.html",
+    "main.71d1492b.css.map": "/static/css/main.71d1492b.css.map",
+    "main.584e2af1.js.map": "/static/js/main.584e2af1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71d1492b.css",
+    "static/js/main.584e2af1.js"
+  ]
+}
